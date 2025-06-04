@@ -2,29 +2,124 @@
 <html>
 <head>
     <title>Campus Life</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header id = "banner">
-        <h1>Campus Life</h1>
-        <p>Your guide to activities, organizations, and events around campus.</p>
+        <h1 style="text-align: center;">Campus Life</h1>
+        <h3 style="text-align: center;">Your guide to activities, organizations, and events around campus.</h3>
     </header>
     <nav id = "navigation">
-        <p> This is my navigation bar</p>
+        <!-- <p> This is my navigation bar</p> -->
+         <ul class="nav-links">
+        <li><a href="#student-organizations">Student Organizations</a></li>
+        <li><a href="#events">Upcoming Events </a></li>
+        <li><a href="#news">Campus News</a></li>
+         </ul>
+        
+
+
     </nav>
 
-    <section id = "Student organizations">
-        <p>This is my student organizations section</p>
+    <section id = "student-organizations">
+        <h2 style="text-align: center;">Student Organizations</h2>
+        <p style="text-align: center;">Explore wide range of student organizations on our campus</p>
+        
+        <div class="card-row">
+          <div class="card">
+            <h4 style="text-align: center;">Basketball Team</h4>
+            <img src="assets/basketball.jpeg" class="Preview-images" alt="Image of Basketball team">
+            <p>Catch all the thrilling moments from our men’s and women’s basketball teams as they bring the 
+                heat to Stevenson Gym!From buzzer-beaters to breakout performances, stay in the loop with scores, highlights, 
+                and upcoming game info—right here.</p>
+            </div>
+
+          <div class="card">
+            <h4 style="text-align: center;">Dance Group</h4>
+            <img src="assets/dance.jpeg" class="Preview-images" alt="Image of Dance group">
+            <p>From Western styles to African beats, experience the vibrant fusion of cultural rhythm in our dynamic dance showcase.</p>
+          </div>
+
+        <div class="card">
+            <h4 style="text-align: center;">Student Choir</h4>
+            <img src="assets/studentchoir.png" class="Preview-images" alt="Image of Student Choir">
+            <p>Enjoy the incredible harmonies and uplifting melodies of the St. John's Student Choir as they bring music to life!</p>
+
+         </div>
+
+        </div>
+
+      
     </section>
 
      <section id = "events">
-        <p>This is my student organizations section</p>
+        <h2 style="text-align: center;">Upcoming Events</h2>
+        <div class="card-row">
+             <div class="card">
+            <h4>Sunday, June 8th, 2025: </h4>
+            <p>9:30 am - 12:30 pm</p>
+            <p>Location: Chapin Hall</p>
+            <img src="assets/commencement.jpeg" class="Preview-images" alt="Image of graduates">
+            <p><a href="https://events.williams.edu/event/commencement-2025/">2025 Commencement</a></p>
+             </div>
+
+         <div class="card">
+            <h4>Friday, June 13th, 2025: </h4>
+            <p>1:00 pm - 2:30 pm</p>
+            <p>Location: Clark Art Museum</p>
+            <img src="assets/berkshires.jpeg" class="Preview-images" alt="Image of Berkshires">
+            <p><a href="https://events.williams.edu/event/art-in-the-berkshires-panel/"> Art in the Berkshires panel</a></p>
+         </div>
+
+           <div class="card">
+            <h4>Friday, July 11, 2025: </h4>
+            <p>2:00 pm - 3:00 pm</p>
+            <p>Location: Paresky Center</p>
+            <img src="assets/coralreef.jpg" class="Preview-images"  alt="Image of Coral Reef">
+            <p><a href="https://events.williams.edu/event/weekly-crochet-circle-berkshires-satellite-coral-reef/2025-07-11/">Berkshires Satellite Coral Reef!</a></p>
+           </div>
+
+
+        </div>
+       
+
+
     </section>
 
+     <h2 style="text-align: center;">Campus News</h2>
+
      <section id = "news">
-        <p>This is my student organizations section</p>
+       
+        <div class="news-card">
+            <h2 style="padding-left: 15px;">Headline</h2>
+            <img src="assets/schrodingersbias.jpeg" id="headline-image" alt="Image of Schrödinger’s Cat">
+            <p><a href="https://williamsrecord.com/469969/opinions/schrodingers-bias-if-you-dont-look-for-it-its-not-there/">Schrödinger’s bias: If you don’t look for it, it’s not there</a></p>
+        </div>
+
+        <div class="news-card"> 
+            <div class="spacer"></div>
+        <h4>
+            <a href="https://williamsrecord.com/469961/arts/christmas-in-may-student-play-maul-comes-to-stage-and-screen/">Christmas in May: student play ‘Maul’ comes to stage and screen</a>
+        </h4>
+          <p>A thrilling student-written drama makes its debut with both live and recorded performances.</p>
+
+
+         <h4>
+            <a href="https://williamsrecord.com/469888/arts/a-happy-accident-iris-moon-02-reflects-on-her-path-from-the-college-to-the-met/">‘A happy accident’: Iris Moon ’02 reflects on her path from the College to the Met</a>
+        </h4>
+        <p>Alumna Iris Moon ’02 shares her unexpected journey from campus life to curating at The Met. </p>
+
+         <h4>
+            <a href="https://williamsrecord.com/469762/arts/student-bands-shine-at-rainy-spring-fling/">Student bands shine at rainy Spring Fling</a>
+        </h4>
+        <p>Despite the downpour, student musicians delivered standout performances that energized the crowd.</p>
+
+         <h4>
+            <a href="https://williamsrecord.com/469964/arts/the-wcfmmys-a-love-letter-to-college-radio/">The WCFMMYs: A love letter to college radio</a>
+        </h4>
+         <p>An endearing celebration of campus radio</p>
+         </div>
     </section>
-    
-    
     
     
 </body>
